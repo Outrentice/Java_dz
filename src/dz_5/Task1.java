@@ -14,7 +14,7 @@ public class Task1 {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setLocation((int) screenSize.getWidth() / 2 - 250,(int) screenSize.getHeight() / 2 - 150);
 
-        JPanel grid_panel = new JPanel(new GridLayout(4, 1));
+        JPanel grid_panel = new JPanel(new GridLayout(3, 1));
         grid_panel.setPreferredSize(new Dimension(500, 300));
 
         JPanel flow_panel = new JPanel(new FlowLayout());
